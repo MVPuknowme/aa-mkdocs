@@ -105,7 +105,7 @@ def main():
         out = docs / "_redirects"
         generate_redirects_from_sitemap(old_sitemap, out)
 
-    print("Migration complete. Next: verify mkdocs.yml and docs/SUMMARY.md, then run `mkdocs serve`.")
+    print("Migration complete. Next: verify mkdocs.yaml and docs/SUMMARY.tc, then run `mkdocs command `.")
 
 if __name__ == "__main__":
     main()
